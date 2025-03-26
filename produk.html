@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Produk</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Data Produk</h1>
+  </header>
+
+  <section>
+    <h2>Tambah Produk</h2>
+    <form id="produkForm">
+      <label>Nama Produk: <br><input type="text" id="produkNama" required></label>
+      <label>Harga: <br><input type="number" id="produkHarga" required></label>
+      <label>Stok: <br><input type="number" id="produkStok" required></label>
+      <button type="submit">Simpan</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Daftar Produk</h2>
+    <table id="produkTable">
+      <tr>
+        <th>Nama Produk</th>
+        <th>Harga</th>
+        <th>Stok</th>
+      </tr>
+      <tr><td>Beras</td><td>12000</td><td>50</td></tr>
+      <tr><td>Minyak Goreng</td><td>14000</td><td>30</td></tr>
+      <tr><td>Gula</td><td>15000</td><td>40</td></tr>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+<footer>
+    <p>By Ahmad Naufal Azzuhdi - 24343029</p>
+</footer>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Transaksi Penjualan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Transaksi Penjualan</h1>
+  </header>
+
+  <section>
+    <h2>Tambah Transaksi</h2>
+    <form id="transaksiForm">
+      <label>Nama Produk: <br><input type="text" id="transaksiProduk" required></label>
+      <label>Jumlah: <br><input type="number" id="transaksiJumlah" required></label>
+      <label>Pelanggan: <br><input type="text" id="transaksiPelanggan" required></label>
+      <button type="submit">Simpan</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Riwayat Transaksi</h2>
+    <table id="transaksiTable">
+      <tr>
+        <th>Nama Produk</th>
+        <th>Jumlah</th>
+        <th>Pelanggan</th>
+      </tr>
+      <tr><td>Beras</td><td>2</td><td>Andi</td></tr>
+      <tr><td>Gula</td><td>1</td><td>Budi</td></tr>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+<footer>
+    <p>By Ahmad Naufal Azzuhdi - 24343029</p>
+</footer>
+</html>
